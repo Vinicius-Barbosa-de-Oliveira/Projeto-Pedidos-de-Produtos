@@ -1,0 +1,18 @@
+﻿<Window x:Class="Projeto_Pedidos_de_Produtos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projeto_Pedidos_de_Produtos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="500">
+    <Grid Margin="3,0,-3,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="49*"/>
+            <ColumnDefinition Width="451*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Pedido" Content="Pedido" HorizontalAlignment="Right" Margin="0,0,190,42" VerticalAlignment="Bottom" Height="50" Width="120" Click="Pedido_Click" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,0,187,116" Text="Pedidos" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="36" Grid.Column="1"/>
+
+    </Grid>
+</Window>
