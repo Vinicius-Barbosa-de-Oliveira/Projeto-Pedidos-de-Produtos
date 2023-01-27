@@ -30,5 +30,12 @@ namespace Projeto_Pedidos_de_Produtos
             PedidoWindow pedido = new PedidoWindow();
             pedido.ShowDialog();
         }
+
+        private void FazerPedido_Click(object sender, RoutedEventArgs e)
+        {
+            PedidoWindow pedid = new PedidoWindow();
+            pedid.ShowDialog();
+        }
+
     }
 }
