@@ -8,11 +8,10 @@
         Title="MainWindow" Height="200" Width="500">
     <Grid Margin="3,0,-3,0">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="49*"/>
-            <ColumnDefinition Width="451*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="Pedido" Content="Pedido" HorizontalAlignment="Right" Margin="0,0,190,42" VerticalAlignment="Bottom" Height="50" Width="120" Click="Pedido_Click" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Right" Margin="0,0,187,116" Text="Pedidos" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="36" Grid.Column="1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="25,147,0,0" VerticalAlignment="Top" Grid.Column="1" Height="20" Width="40"/>
 
     </Grid>
 </Window>
