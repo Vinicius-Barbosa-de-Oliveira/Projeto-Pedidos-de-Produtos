@@ -15,19 +15,25 @@ using System.Windows.Shapes;
 namespace Projeto_Pedidos_de_Produtos
 {
     /// <summary>
-    /// Lógica interna para ProdutoWindow.xaml
+    /// Lógica interna para SalvarPedidoWindow.xaml
     /// </summary>
-    public partial class ProdutoWindow : Window
+    public partial class SalvarPedidoWindow : Window
     {
-        public ProdutoWindow()
+        public SalvarPedidoWindow()
         {
             InitializeComponent();
         }
 
-        private void finalizar_Click(object sender, RoutedEventArgs e)
+        private void novoitem_Click(object sender, RoutedEventArgs e)
         {
-            SalvarPedidoWindow sav = new SalvarPedidoWindow();
-            sav.ShowDialog();
+            ItemWindow it = new ItemWindow();
+            it.ShowDialog();
+        }
+
+        private void voltamenu_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.ShowDialog();
         }
     }
 }

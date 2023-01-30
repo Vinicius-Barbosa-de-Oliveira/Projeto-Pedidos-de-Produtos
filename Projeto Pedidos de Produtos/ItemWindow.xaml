@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="ItemWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="cadastraritem" Content="Cadastra Item" HorizontalAlignment="Left" Margin="318,154,0,0" VerticalAlignment="Top" Height="44" Width="108" Click="cadastraritem_Click"/>
+
     </Grid>
 </Window>

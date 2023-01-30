@@ -15,19 +15,13 @@ using System.Windows.Shapes;
 namespace Projeto_Pedidos_de_Produtos
 {
     /// <summary>
-    /// Lógica interna para ProdutoWindow.xaml
+    /// Lógica interna para Salvar_AbrirXMLWindow.xaml
     /// </summary>
-    public partial class ProdutoWindow : Window
+    public partial class Salvar_AbrirXMLWindow : Window
     {
-        public ProdutoWindow()
+        public Salvar_AbrirXMLWindow()
         {
             InitializeComponent();
-        }
-
-        private void finalizar_Click(object sender, RoutedEventArgs e)
-        {
-            SalvarPedidoWindow sav = new SalvarPedidoWindow();
-            sav.ShowDialog();
         }
     }
 }

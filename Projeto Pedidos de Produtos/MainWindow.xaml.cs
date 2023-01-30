@@ -37,5 +37,28 @@ namespace Projeto_Pedidos_de_Produtos
             pedid.ShowDialog();
         }
 
+        private void LevarpraListar_Click(object sender, RoutedEventArgs e)
+        {
+            ListarGeralWindow listgeral = new ListarGeralWindow();
+            listgeral.ShowDialog();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ExcluirWindow excl = new ExcluirWindow();
+            excl.ShowDialog();
+        }
+
+        private void atualizar_Click(object sender, RoutedEventArgs e)
+        {
+            AtualizarGeralWindow atualizargeral = new AtualizarGeralWindow();
+            atualizargeral.ShowDialog();
+        }
+
+        private void salvarouabrir_Click(object sender, RoutedEventArgs e)
+        {
+            Salvar_AbrirXMLWindow save = new Salvar_AbrirXMLWindow();
+            save.ShowDialog();
+        }
     }
 }

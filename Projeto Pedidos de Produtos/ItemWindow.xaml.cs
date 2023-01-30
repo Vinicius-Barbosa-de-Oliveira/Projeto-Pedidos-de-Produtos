@@ -23,5 +23,11 @@ namespace Projeto_Pedidos_de_Produtos
         {
             InitializeComponent();
         }
+
+        private void cadastraritem_Click(object sender, RoutedEventArgs e)
+        {
+            ProdutoWindow produt = new ProdutoWindow();
+            produt.ShowDialog();
+        }
     }
 }

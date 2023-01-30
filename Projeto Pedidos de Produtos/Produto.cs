@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Projeto_Pedidos_de_Produtos
 {
-    class Produto
+    public class Produto
     {
+        public int IdPedido { get; set; }
+        public string NomeProduto { get; set; }
+        public string Fornecedor { get; set; }
+        public double Preco { get; set; }
+
+        public override string ToString()
+        {
+            return $"{IdPedido} - {NomeProduto} - {Fornecedor} - {Preco}";
+        }
     }
 }

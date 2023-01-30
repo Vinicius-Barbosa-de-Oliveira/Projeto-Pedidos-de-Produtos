@@ -1,0 +1,15 @@
+﻿<Window x:Class="Projeto_Pedidos_de_Produtos.ListarGeralWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projeto_Pedidos_de_Produtos"
+        mc:Ignorable="d"
+        Title="ListarGeralWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ListarPedidos" Content="Listar Pedidos" HorizontalAlignment="Left" Margin="67,339,0,0" VerticalAlignment="Top" Click="ListarPedidos_Click" Height="50" Width="136"/>
+        <Button x:Name="ListarItens" Content="Listar Itens" HorizontalAlignment="Left" Margin="304,340,0,0" VerticalAlignment="Top" Height="48" Width="96" Click="ListarItens_Click"/>
+        <Button x:Name="ListarProdutos" Content="Listar Produtos" HorizontalAlignment="Left" Margin="497,350,0,0" VerticalAlignment="Top" Height="34" Width="100" Click="ListarProdutos_Click"/>
+
+    </Grid>
+</Window>
