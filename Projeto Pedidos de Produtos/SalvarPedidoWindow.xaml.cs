@@ -22,12 +22,13 @@ namespace Projeto_Pedidos_de_Produtos
         public SalvarPedidoWindow()
         {
             InitializeComponent();
-        }
 
+        }
+        ItemWindow w = new ItemWindow();
         private void novoitem_Click(object sender, RoutedEventArgs e)
         {
-            ItemWindow it = new ItemWindow();
-            it.ShowDialog();
+            
+            w.ShowDialog();
         }
 
         private void voltamenu_Click(object sender, RoutedEventArgs e)

@@ -6,8 +6,5 @@
         xmlns:local="clr-namespace:Projeto_Pedidos_de_Produtos"
         mc:Ignorable="d"
         Title="ProdutoWindow" Height="450" Width="800">
-    <Grid>
-        <Button x:Name="finalizar" Content="Finalizar Pedido" HorizontalAlignment="Left" Height="47" Margin="83,286,0,0" VerticalAlignment="Top" Width="117" Click="finalizar_Click"/>
-
-    </Grid>
+    <Grid/>
 </Window>

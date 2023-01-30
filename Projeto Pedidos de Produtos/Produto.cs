@@ -8,14 +8,14 @@ namespace Projeto_Pedidos_de_Produtos
 {
     public class Produto
     {
-        public int IdPedido { get; set; }
+        public int IdProduto { get; set; }
         public string NomeProduto { get; set; }
         public string Fornecedor { get; set; }
         public double Preco { get; set; }
 
         public override string ToString()
         {
-            return $"{IdPedido} - {NomeProduto} - {Fornecedor} - {Preco}";
+            return $"{IdProduto} - {NomeProduto} - {Fornecedor} - {Preco}";
         }
     }
 }

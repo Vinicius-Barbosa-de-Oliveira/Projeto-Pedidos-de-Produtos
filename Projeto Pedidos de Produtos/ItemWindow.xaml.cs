@@ -26,8 +26,37 @@ namespace Projeto_Pedidos_de_Produtos
 
         private void cadastraritem_Click(object sender, RoutedEventArgs e)
         {
-            ProdutoWindow produt = new ProdutoWindow();
-            produt.ShowDialog();
+            int Iditem = int.Parse(iditem.Text);
+            int idprod = int.Parse(idproduto.Text);
+            string desc = descricao.Text;
+            string nomeprod = nomeproduto.Text;
+            string forn = fornecedor.Text;
+            double preco = double.Parse(pre.Text);
+
+            Item i = new Item()
+            {
+                ID = Iditem,
+                DescricaoItem = desc
+            };
+            Produto pro = new Produto()
+            {
+                IdProduto = idprod,
+                NomeProduto = nomeprod,
+                Fornecedor = forn,
+                Preco = preco
+            };
+
+            NItem.Inserir(i);
+            NProduto.Inserir(pro);
+
+            NItem.Vincular();
+
+        }
+
+        private void voltarmenu_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.ShowDialog();
         }
     }
 }

@@ -8,7 +8,7 @@
         Title="SalvarPedidoWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="novoitem" Content="adicionar um novo item" HorizontalAlignment="Left" Height="61" Margin="64,235,0,0" VerticalAlignment="Top" Width="137" Click="novoitem_Click"/>
-        <Button x:Name="voltamenu" Content="Volta pro menu inicial" HorizontalAlignment="Left" Height="61" Margin="293,235,0,0" VerticalAlignment="Top" Width="228" Click="voltamenu_Click"/>
+        <Button x:Name="voltamenu" Content="Voltar para o menu inicial" HorizontalAlignment="Left" Height="61" Margin="293,235,0,0" VerticalAlignment="Top" Width="228" Click="voltamenu_Click"/>
 
     </Grid>
 </Window>
