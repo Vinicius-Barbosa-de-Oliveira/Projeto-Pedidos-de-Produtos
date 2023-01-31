@@ -23,23 +23,5 @@ namespace Projeto_Pedidos_de_Produtos
         {
             InitializeComponent();
         }
-
-        private void attpedido_Click(object sender, RoutedEventArgs e)
-        {
-            AtualizarPedidoWindow atualizarpedido = new AtualizarPedidoWindow();
-            atualizarpedido.ShowDialog();
-        }
-
-        private void attitem_Click(object sender, RoutedEventArgs e)
-        {
-            AtualizarItemWindow atualizaritem = new AtualizarItemWindow();
-            atualizaritem.ShowDialog();
-        }
-
-        private void attproduto_Click(object sender, RoutedEventArgs e)
-        {
-            AtualizarProdutoWindow atualizarproduto = new AtualizarProdutoWindow();
-            atualizarproduto.ShowDialog();
-        }
     }
 }

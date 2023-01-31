@@ -7,9 +7,11 @@
         mc:Ignorable="d"
         Title="ListarGeralWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="ListarPedidos" Content="Listar Pedidos" HorizontalAlignment="Left" Margin="67,339,0,0" VerticalAlignment="Top" Click="ListarPedidos_Click" Height="50" Width="136"/>
-        <Button x:Name="ListarItens" Content="Listar Itens" HorizontalAlignment="Left" Margin="304,340,0,0" VerticalAlignment="Top" Height="48" Width="96" Click="ListarItens_Click"/>
-        <Button x:Name="ListarProdutos" Content="Listar Produtos" HorizontalAlignment="Left" Margin="497,350,0,0" VerticalAlignment="Top" Height="34" Width="100" Click="ListarProdutos_Click"/>
-
+        <ListBox RenderTransformOrigin="0.526,0.552" Margin="36,71,36,293"/>
+        <ListBox RenderTransformOrigin="0.526,0.552" Margin="36,201,36,163"/>
+        <ListBox RenderTransformOrigin="0.526,0.552" Margin="36,337,36,27"/>
+        <TextBlock TextWrapping="Wrap" Margin="36,31,655,369" FontSize="22" RenderTransformOrigin="0.189,0.598"><Run Language="pt-br" Text="Pedidos"/></TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="36,160,655,240" FontSize="22" RenderTransformOrigin="0.189,0.598"><Run Language="pt-br" Text="Itens"/></TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="36,297,655,103" FontSize="22" RenderTransformOrigin="0.189,0.598"><Run Language="pt-br" Text="Produtos"/></TextBlock>
     </Grid>
 </Window>

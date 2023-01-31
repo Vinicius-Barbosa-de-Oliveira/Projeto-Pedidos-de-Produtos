@@ -24,22 +24,9 @@ namespace Projeto_Pedidos_de_Produtos
             InitializeComponent();
         }
 
-        private void ListarPedidos_Click(object sender, RoutedEventArgs e)
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            ListarPedidosWindow listpedido = new ListarPedidosWindow();
-            listpedido.ShowDialog();
-        }
 
-        private void ListarItens_Click(object sender, RoutedEventArgs e)
-        {
-            ListarItemWindow listitem = new ListarItemWindow();
-            listitem.ShowDialog();
-        }
-
-        private void ListarProdutos_Click(object sender, RoutedEventArgs e)
-        {
-            ListarProdutoWindow listProduto = new ListarProdutoWindow();
-            listProduto.ShowDialog();
         }
     }
 }

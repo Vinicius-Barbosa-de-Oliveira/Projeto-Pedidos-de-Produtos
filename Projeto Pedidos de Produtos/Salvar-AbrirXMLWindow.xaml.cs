@@ -23,5 +23,10 @@ namespace Projeto_Pedidos_de_Produtos
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

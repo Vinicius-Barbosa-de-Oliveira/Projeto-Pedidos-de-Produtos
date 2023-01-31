@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="Salvar_AbrirXMLWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Salvar Pedido(s)" Margin="66,77,569,308" Click="Button_Click" FontSize="22"/>
+        <Button Content="Salvar Item(s)" Margin="315,77,333,308" Click="Button_Click" FontSize="22"/>
+        <Button Content="Salvar Produto(s)" Margin="563,77,68,308" Click="Button_Click" FontSize="22"/>
+        <Button Content="Abrir Pedido(s)" Margin="66,194,569,191" Click="Button_Click" FontSize="22"/>
+        <Button Content="Abrir Item(s)" Margin="314,194,333,191" Click="Button_Click" FontSize="22"/>
+        <Button Content="Abrir Produto(s)" Margin="563,194,68,191" Click="Button_Click" FontSize="22"/>
+        <TextBox TextWrapping="Wrap" Margin="66,286,68,85"/>
+
     </Grid>
 </Window>
